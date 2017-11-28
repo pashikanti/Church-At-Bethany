@@ -1,0 +1,27 @@
+<form id="myform" method="post">
+<label>name</label>
+<input type="text" name="name" />
+<label>address</label>
+<input type="text" name="email" />
+<label>phone no</label>
+<input type="text" name="phone" />
+<label>subject</label>
+<input type="text" name="subject" />
+<label>message_html</label>
+<input type="text" name="message" />
+<br><br>
+<button>
+Send
+</button>
+</form>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+ <link rel="stylesheet" href="script.css">
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_cyKguaikeIrGILZG1eklO");
+   })();
+</script>
