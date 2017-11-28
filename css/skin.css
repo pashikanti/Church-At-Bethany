@@ -4855,7 +4855,7 @@ ul.comments-list > li.comment > .comment-body {
     padding: 45px 0 !important;
   }
   .home-personal #about {
-    background-image: none;
+  //  background-image: none;
   }
 }
 .home-agency #process,
